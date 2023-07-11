@@ -75,5 +75,4 @@ spec:
         name: smtpd
         ports:
         - containerPort: 25
-        resources: {{- toYaml .Values.smtpd.smtpd.resources | nindent 10 }}
        
